@@ -106,7 +106,7 @@ $routeProvider
 		id:3,
 		hours: '11 AM Noon to 1 PM (Mon-Sun)',
 		bestDish: {
-			name: 'SHAHI-Paneer',
+			name: 'SHAHI-Chicken',
 			image: 'https://i.ytimg.com/vi/lzS-aeiCvF8/maxresdefault.jpg'
 			},
 		image: 'https://img1.holidayiq.com/customcdn/720x512/images/property/resortimg/2685_pictures181445951537_org.jpg'
@@ -124,8 +124,8 @@ $routeProvider
 		id:4,
 		hours: '1 AM to 10 PM (Mon-Sun)',
 		bestDish: {
-			name: 'Cheese Burger',
-			image: 'https://lh3.googleusercontent.com/Ele8gtDOd1tlQ4TebRJkf6XgpciDD2e57Jf5E3UwAzvfPs0kLhOXJLewZYsu1CFn9CPly0TLvrZUCqJnXMn0=s400'
+			name: 'Green Salad',
+			image: 'http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_1756_green-salad-pomegranate-seeds.jpg'
 			},
 		image: 'https://s3-ap-southeast-1.amazonaws.com/magicpin-selfie/productimages/2815_cover_pic.jpg'
 
