@@ -57,7 +57,7 @@ $routeProvider
 	foodieApp.controller('restaurantController',function($scope,$routeParams,$http) {
 		$scope.restaurantId = $routeParams.id;
 		var diabetes=['sweet', 'chocolate', 'brownie', 'rice', 'french fries', 'pasta', 'cookies', 'chicken', 'nachos', 'pie', 'yogurt','smoothie',
-		               'hamburger','cake','pizza','muffins','eggs','nuts','beer','soda','meat','butter','lard']
+		               'hamburger','cake','pizza','muffins','eggs','nuts','beer','soda','butter','lard']
 
 
 		var restaurants =  [{
