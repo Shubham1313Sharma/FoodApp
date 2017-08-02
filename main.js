@@ -142,8 +142,8 @@ $routeProvider
 		id:5,
 		hours: '10AM to 10 PM (Mon-Sun)',
 		bestDish: {
-			name: 'white & Red Sauce Pasta',
-			image: ''
+			name: 'Soup',
+			image: 'http://thewoksoflife.com/wp-content/uploads/2015/10/egg-drop-soup-8.jpg'
 			},
 		image: 'https://media-cdn.tripadvisor.com/media/photo-o/09/6e/84/c4/hotel-polo-regency.jpg'
 
