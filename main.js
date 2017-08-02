@@ -239,7 +239,7 @@ $routeProvider
 						$scope.msg = "THIS FOOD IS NOT FOR DIABETIC PATIENTS";
 					}
 					else{
-												$scope.msg = "THIS FOOD IS GOOD FOR DIBETIC PATIENT";
+												$scope.msg = "THIS FOOD IS GOOD FOR DIABETIC PATIENT";
 					}
 			}
 
