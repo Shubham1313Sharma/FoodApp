@@ -57,7 +57,7 @@ $routeProvider
 	foodieApp.controller('restaurantController',function($scope,$routeParams,$http) {
 		$scope.restaurantId = $routeParams.id;
 		var diabetes=['sweet', 'chocolate', 'brownie', 'rice', 'french fries', 'pasta', 'cookies', 'chicken', 'nachos', 'pie', 'yogurt','smoothie',
-		               'hamburger','cake','pizza','muffins','eggs','nuts','beer','soda','croissants','butter','lard']
+		               'hamburger','cake','pizza','muffins','eggs','nuts','beer','soda','meat','butter','lard']
 
 
 		var restaurants =  [{
@@ -219,7 +219,7 @@ $routeProvider
 			$scope.ingredient_list=[];
 			console.log(response);
 
-  			for (var i =0;i < ingredients.length;i++) {
+  		for (var i =0;i < ingredients.length;i++) {
 			$scope.ingredients.push(ingredients[i].name);
 			}
 			for(var j=0;j< $scope.ingredients.length;j++)
@@ -237,7 +237,7 @@ $routeProvider
 					if(x>=0)
 					{
 						$scope.msg = "THIS FOOD IS NOT FOR DIABETIC PATIENTS";
-					}
+					break }
 					else{
 												$scope.msg = "THIS FOOD IS GOOD FOR DIABETIC PATIENT";
 					}
